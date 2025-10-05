@@ -1,0 +1,45 @@
+# Environment variables
+.env
+*.env
+.env.local
+.env.production
+
+# Go
+backend/vendor/
+backend/*.exe
+backend/*.exe~
+backend/*.dll
+backend/*.so
+backend/*.dylib
+backend/tmp/
+backend/writist
+
+# Chrome extension
+chrome-extension/dist/
+chrome-extension/*.zip
+chrome-extension/*.crx
+chrome-extension/*.pem
+
+# Node modules
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Fly.io
+.fly/
+
+# Test coverage
+*.out
+coverage/
